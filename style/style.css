@@ -5,6 +5,9 @@
 body{
     background-color: #f5f5f5;
 }
+
+
+/* Header styling start */
 header{
     width: 100%;
 }
@@ -33,5 +36,46 @@ header nav button{
     text-align: center;
     border: 1px solid #006A50;
     border-radius: 8px;
-    padding: 15px 30px 15px 30px;  
+    padding: 15px 30px;  
+}
+/* Header styling start */
+main .hero{
+    margin: 0px 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 100px; 
+    background-color: #C6E4D6; 
+    border-radius: 24px;
+}
+main .hero .hero-left p{
+    color: #0E0E0E;
+    opacity: 50%;
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    text-align: left;
+}
+main .hero .hero-left h1{
+    color: #0e0e0e;
+    font-family: Fira Sans;
+    font-size: 56px;
+    font-weight: bold;
+    line-height: 67px;
+    text-align: left;
+    margin-top: 16px;
+}
+main .hero .hero-left button{
+    color: white;
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: center;
+    padding: 17px 34px;
+    background: #006A50;
+    border: none;
+    border-radius: 8px;
+    margin-top: 24px;
 }

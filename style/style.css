@@ -14,7 +14,6 @@ header{
     width: 100%;
 }
 header nav{
-    padding: ;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -39,6 +38,12 @@ header nav button{
     border: 1px solid #006A50;
     border-radius: 8px;
     padding: 15px 30px;  
+}
+header nav button:hover{
+    cursor: pointer;
+   color: #fff; 
+   background-color: #006A50;
+   transition: 0.3s;
 }
 /* Header styling end */
 
@@ -77,7 +82,7 @@ main .hero .hero-left button{
     color: white;
     font-family: Fira Sans;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: bold;
     line-height: 22px;
     text-align: center;
     padding: 17px 34px;
@@ -121,7 +126,7 @@ main .pillars-of-bd .cards-container .cards h4{
     opacity: 0.8;
     font-family: Fira Sans;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: bold;
     text-align: left;
     margin-top: 25px;
 }
@@ -130,9 +135,190 @@ main .pillars-of-bd .cards-container .cards p{
     opacity: 0.7;
     font-family: Fira Sans;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: normal;
     line-height: 24px;
     text-align: left;
     margin-top: 12px;  
 }
 /* piller-of-bd end */
+
+/* vision of future start */
+main .vision-of-future{
+    margin: 80px 160px 0px;
+}
+main .vision-of-future h2{
+    color: #0E0E0E;
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;
+}
+main .vision-of-future p{
+    color: #0E0E0EB3;
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
+    text-align: left; 
+    margin-top: 24px;   
+}
+main .vision-of-future .cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-top: 32px;
+}
+main .vision-of-future .cards .card-1{
+    padding: 32px;
+    border-radius: 16px;
+    background-color: #d5e1f5;
+}
+main .vision-of-future .cards .card-1 h4{
+    color: #0E0E0E;
+    opacity: 0.8; 
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left; 
+    margin-top: 24px;
+}
+main .vision-of-future .cards .card-1 p{
+    color: #0E0E0E;
+    opacity: 0.7; 
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: left; 
+    margin-top: 12px;
+}
+main .vision-of-future .cards .card-1 button{
+    color: white;
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 11px 20px;
+    background-color: #5490F5;  
+    border: none;
+    border-radius: 8px;
+    margin-top: 24px;
+}
+main .vision-of-future .cards .card-1 button:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #025fff;
+    transition: 0.3s;
+}
+main .vision-of-future .cards .card-2{
+   padding: 32px;
+   border-radius: 16px;
+   background-color: #c6e4d6;
+}
+main .vision-of-future .cards .card-2 h4{
+    color: #0E0E0E;
+    opacity: 0.8; 
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left; 
+    margin-top: 24px;
+}
+main .vision-of-future .cards .card-2 p{
+    color: #0E0E0E;
+    opacity: 0.7; 
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: left; 
+    margin-top: 12px;
+}
+main .vision-of-future .cards .card-2 button{
+    color: white;
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 11px 20px;
+    background-color: #09a15c;  
+    border: none;
+    border-radius: 8px;
+    margin-top: 24px;
+}
+main .vision-of-future .cards .card-2 button:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #15c405;
+    transition: 0.3s;
+}
+main .vision-of-future .cards .card-3{
+   padding: 32px;
+   border-radius: 16px;
+   background-color: #f7ebcf;
+}
+main .vision-of-future .cards .card-3 h4{
+    color: #0E0E0E;
+    opacity: 0.8; 
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left; 
+    margin-top: 24px;
+}
+main .vision-of-future .cards .card-3 p{
+    color: #0E0E0E;
+    opacity: 0.7; 
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: left; 
+    margin-top: 12px;
+}
+main .vision-of-future .cards .card-3 button{
+    color: white;
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 11px 20px;
+    background-color: #ffc239;            
+    border: none;
+    border-radius: 8px;
+    margin-top: 24px;      
+}
+main .vision-of-future .cards .card-3 button:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #ff9239;
+    transition: 0.3s;
+}
+main .vision-of-future .quote{
+    padding: 48px 24px;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    background-image: url("../assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position-x: 24px;
+    background-position-y: 24px;
+    margin-top: 32px;
+    box-shadow: 0px 0px 1px 1px #0E0E0E26;
+}
+main .vision-of-future .quote p{
+    color: #0E0E0E;
+    opacity: 0.8;
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: left;    
+}
+main .vision-of-future .quote .designation{
+    color: #0E0E0E;
+    opacity: 0.6;
+    margin-top: 4px;
+}
+main .vision-of-future .quote h4{
+    color: #0E0E0E;
+    opacity: 0.8; 
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 12px;
+}
+/* vision of future end */

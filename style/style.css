@@ -79,3 +79,8 @@ main .hero .hero-left button{
     border-radius: 8px;
     margin-top: 24px;
 }
+main .hero .hero-left button:hover{
+    cursor: pointer;
+    background: #02a174;
+    transition: 0.3s;
+}

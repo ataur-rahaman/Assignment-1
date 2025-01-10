@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -38,9 +40,14 @@ header nav button{
     border-radius: 8px;
     padding: 15px 30px;  
 }
-/* Header styling start */
+/* Header styling end */
+
+/* hero styling start */
+main{
+    margin-bottom: 80px;
+}
 main .hero{
-    margin: 0px 160px;
+    margin: 20px 160px 0px ;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -84,3 +91,48 @@ main .hero .hero-left button:hover{
     background: #02a174;
     transition: 0.3s;
 }
+/* hero styling end */
+
+/* piller-of-bd start */
+main .pillars-of-bd{
+    margin: 80px 160px 0px;
+}
+main .pillars-of-bd h2{
+    color: #0E0E0E;
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;
+}
+main .pillars-of-bd .cards-container{
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+main .pillars-of-bd .cards-container .cards{
+    padding: 24px;
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0px 0px 1px 1px #0E0E0E26;
+}
+main .pillars-of-bd .cards-container .cards h4{
+    color: #0E0E0E;
+    opacity: 0.8;
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 25px;
+}
+main .pillars-of-bd .cards-container .cards p{
+    color: #0E0E0E;  
+    opacity: 0.7;
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-top: 12px;  
+}
+/* piller-of-bd end */

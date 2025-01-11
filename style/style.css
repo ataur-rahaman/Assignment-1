@@ -98,7 +98,7 @@ main .hero .hero-left button:hover{
 }
 /* hero styling end */
 
-/* piller-of-bd start */
+/* Pillar-of-bd start */
 main .pillars-of-bd{
     margin: 80px 160px 0px;
 }
@@ -295,7 +295,7 @@ main .vision-of-future .quote{
     background-image: url("../assets/quote-bg.png");
     background-repeat: no-repeat;
     background-position-x: 24px;
-    background-position-y: 24px;
+    background-position-y: 48px;
     margin-top: 32px;
     box-shadow: 0px 0px 1px 1px #0E0E0E26;
 }
@@ -622,5 +622,31 @@ main .newsletter .child .promise{
     text-align: center;
     margin-top: 25px;
 }
-
 /* newsletter end */
+
+/* footer start */
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+footer h3{
+    color: #0E0E0E;
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+footer .icons{
+    margin-top: 64px;
+    margin-bottom: 50px;
+}
+footer .icons img{
+    cursor: pointer;
+}
+footer .icons .insta{
+    margin: 0px 23px;
+}
+/* footer end */

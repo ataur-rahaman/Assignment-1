@@ -455,3 +455,92 @@ main .recent-news .card .right button:hover{
     background: #02a174;
     transition: 0.3s;
 }
+
+main .donate-today{
+    margin: 80px 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main .donate-today h2{
+    color: #0E0E0E;
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;   
+}
+main .donate-today p{
+    color: #0E0E0E;
+    opacity: 0.7;
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 24px;
+}
+main .donate-today .donate-child .amount{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-top: 32px;
+}
+main .donate-today .donate-child .amount p{
+    color: #0E0E0E;
+    opacity: 0.8;
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 40px;
+    background-color: white;
+    border: 1px solid #d4d4d6;
+    border-radius: 16px;
+}
+main .donate-today .donate-child .amount p:hover{
+    cursor: pointer;
+    background-color: #c6e4d6;
+    transition: 0.3s;
+}
+main .donate-today .donate-child .amount .selected{
+    background-color: #c6e4d6;
+}
+main .donate-today .donate-child input{
+    color: black;
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 24px;
+    text-align: center;
+}
+main .donate-today .donate-child .btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main .donate-today .donate-child .btn input{
+    width: 95%;
+    background-color: white;
+    padding: 20px 0px;
+    border: 1px solid #d4d4d6;
+    margin-top: 32px;
+    
+}
+main .donate-today .donate-child .btn button{
+    color: white;
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    border: none;
+    border-radius: 8px;
+    background-color: #006A50;
+    padding: 17px 34px;
+    margin-top: 32px;
+    }
+main .donate-today .donate-child .btn button:hover{    
+    cursor: pointer;
+    background: #02a174;
+    transition: 0.3s;
+    }

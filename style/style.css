@@ -389,3 +389,69 @@ main .opinion .table-container .table-cont-child .row .row-right select{
     line-height: 19px;
 }
 /* Opinion Matters end */
+
+/* Recent News */
+main .recent-news{
+    margin: 80px 160px 0px;
+}
+main .recent-news h2{
+    color: #0E0E0E;
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: bold;
+}
+main .recent-news p{
+    color: #0E0E0EB3;
+    opacity: 0.7;
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 24px;
+}
+main .recent-news .card{
+    margin-top: 24px;
+    padding: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    background-color: white;
+    border-radius: 24px;
+}
+main .recent-news .card .left img{
+    border-radius: 24px;
+}
+main .recent-news .card .right h2{
+    color: #0E0E0E;
+    opacity: 0.8;
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 38px;
+    margin-bottom: 12px;
+}
+main .recent-news .card .right p{
+    color: #0E0E0E;
+    opacity: 0.7;
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 12px;
+}
+main .recent-news .card .right button{
+    color: white;
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px; 
+    background-color: #006A50;
+    border: none;
+    border-radius: 8px;
+    padding: 13px 26px;
+    margin-top: 32px;
+}
+main .recent-news .card .right button:hover{
+    cursor: pointer;
+    background: #02a174;
+    transition: 0.3s;
+}

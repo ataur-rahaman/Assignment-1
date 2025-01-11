@@ -390,7 +390,7 @@ main .opinion .table-container .table-cont-child .row .row-right select{
 }
 /* Opinion Matters end */
 
-/* Recent News */
+/* Recent News start */
 main .recent-news{
     margin: 80px 160px 0px;
 }
@@ -455,7 +455,9 @@ main .recent-news .card .right button:hover{
     background: #02a174;
     transition: 0.3s;
 }
+/* Recent News End */
 
+/* donate-today start */
 main .donate-today{
     margin: 80px 160px;
     display: flex;
@@ -544,3 +546,81 @@ main .donate-today .donate-child .btn button:hover{
     background: #02a174;
     transition: 0.3s;
     }
+/* donate-today end */
+
+/* newsletter start */
+main .newsletter{
+    margin: 80px 160px;
+    padding: 80px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    background-color: #C6E4D6;
+}
+main .newsletter .child{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+main .newsletter .child h2{
+    color: #0E0E0E;
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;   
+}
+main .newsletter .child p{
+    color: #0E0E0E;
+    opacity: 0.7;
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 16px;
+}
+main .newsletter .child .email-form form{
+    margin-top: 24px;
+}
+main .newsletter .child .email-form form .mail{
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 19px;
+    text-align: left; 
+    background-color: white;
+    border:none;
+    padding: 18px 40px;
+    width: 40%;
+    border-radius: 8px 0px 0px 8px;
+}
+main .newsletter .child .email-form form .button{
+    color: white;
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    padding: 17px 34px;
+    border: none;
+    border-radius: 0px 8px 8px 0px;
+    background-color: #006A50;
+    margin-left: -5px;
+}
+main .newsletter .child .email-form form .button:hover{
+    cursor: pointer;
+    background: #02a174;
+    transition: 0.3s;
+}
+main .newsletter .child .promise{
+    color: #0E0E0E;
+    opacity: 0.7;
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 25px;
+}
+
+/* newsletter end */
